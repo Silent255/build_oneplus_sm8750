@@ -1,0 +1,15 @@
+name: Build_oneplus_sm8750
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up environment
+      run: |
+        # Your setup commands here
+    - name: Build kernel
+      run: |
+        # Your build commands here
